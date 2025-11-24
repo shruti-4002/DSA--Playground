@@ -1,0 +1,48 @@
+// Problem: LeetCode 46 - Permutations
+// Platform: LeetCode
+// Language: C++
+// Approach: Backtracking + DFS
+// Time Complexity: O(n * n!) — each permutation of size n
+// Space Complexity: O(n) — recursion depth + used array + temp (excluding output)
+
+class Solution {
+public:
+
+    // DFS-based backtracking function
+    void fun(vector<int>& nums, vector<vector<int>>& ans,
+             vector<int>& used, vector<int> temp) {
+        
+        // If current permutation is complete
+        if (temp.size() == nums.size()) {
+            ans.push_back(temp);
+            return;
+        }
+
+        // Try including each unused number
+        for (int i = 0; i < nums.size(); i++) {
+            
+            // If already used, skip
+            if (used[i] == 1) continue;
+
+            // Mark as used and add to current permutation
+            used[i] = 1;
+            temp.push_back(nums[i]);
+
+            // Recurse
+            fun(nums, ans, used, temp);
+
+            // Backtrack (undo changes)
+            temp.pop_back();
+            used[i] = 0;
+        }
+    }
+
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> ans;
+        vector<int> temp;
+        vector<int> used(nums.size(), 0);
+
+        fun(nums, ans, used, temp);
+        return ans;
+    }
+};
