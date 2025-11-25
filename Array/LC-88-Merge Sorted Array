@@ -1,0 +1,30 @@
+// Problem: LeetCode 88 - Merge Sorted Array
+// Platform: LeetCode
+// Language: C++
+// Approach: Two Pointers from End (In-place)
+// Time Complexity: O(m + n) — traverse both arrays once
+// Space Complexity: O(1) — no extra space used
+
+class Solution {
+public:
+    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+        
+        int i = m - 1;        // Pointer for last element in nums1's valid part
+        int j = n - 1;        // Pointer for last element in nums2
+        int k = m + n - 1;    // Pointer for the final merged position
+
+        // Merge from the end so nums1 doesn't get overwritten
+        while (i >= 0 && j >= 0) {
+            if (nums1[i] > nums2[j]) {
+                nums1[k--] = nums1[i--];
+            } else {
+                nums1[k--] = nums2[j--];
+            }
+        }
+
+        // Only nums2 may have leftover elements
+        while (j >= 0) {
+            nums1[k--] = nums2[j--];
+        }
+    }
+};
