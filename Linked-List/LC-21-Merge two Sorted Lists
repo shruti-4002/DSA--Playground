@@ -1,0 +1,45 @@
+// Problem: LeetCode 21 - Merge Two Sorted Lists
+// Platform: LeetCode
+// Language: C++
+// Approach: Two Pointer + Dummy Node
+// Time Complexity: O(m + n) — traverse both lists once
+// Space Complexity: O(1) — constant extra space
+
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        
+        ListNode* l1 = list1;
+        ListNode* l2 = list2;
+
+        // Dummy node simplifies handling head logic
+        ListNode* dummy = new ListNode(0);
+        ListNode* tail = dummy;   // Tail of merged list
+
+        // Traverse both lists
+        while (l1 != nullptr && l2 != nullptr) {
+            
+            // Pick smaller value and move pointer
+            if (l1->val < l2->val) {
+                tail->next = l1;   // Append node
+                tail = l1;         // Move tail
+                l1 = l1->next;     // Move pointer in list1
+            } 
+            else {
+                tail->next = l2;   // Append node
+                tail = l2;         // Move tail
+                l2 = l2->next;     // Move pointer in list2
+            }
+        }
+
+        // Attach remaining nodes of l1 or l2
+        if (l1 != nullptr) {
+            tail->next = l1;
+        } else {
+            tail->next = l2;
+        }
+
+        // The merged list starts from dummy->next
+        return dummy->next;
+    }
+};
