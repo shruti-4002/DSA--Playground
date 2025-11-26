@@ -1,0 +1,32 @@
+// Problem: LeetCode 94 - Binary Tree Inorder Traversal
+// Platform: LeetCode
+// Language: C++
+// Approach: Recursive DFS (Left → Root → Right)
+// Time Complexity: O(n) — visit each node exactly once
+// Space Complexity: O(h) — recursion stack (worst case O(n))
+
+class Solution {
+public:
+
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> result;
+        inorder(root, result);
+        return result;
+    }
+
+    
+    void inorder(TreeNode* root, vector<int>& result) {
+
+        // Base case: if node is null, return
+        if (root == nullptr) return;
+
+        // Traverse left subtree
+        inorder(root->left, result);
+
+        // Visit current node
+        result.push_back(root->val);
+
+        // Traverse right subtree
+        inorder(root->right, result);
+    }
+};
