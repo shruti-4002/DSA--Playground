@@ -1,0 +1,41 @@
+// Problem: LeetCode 414 - Third Maximum Number
+// Platform: LeetCode
+// Language: C++
+// Approach: Track top 3 distinct maximums using variables
+// Time Complexity: O(n) — single pass through array
+// Space Complexity: O(1) — constant extra space
+
+class Solution {
+public:
+    int thirdMax(vector<int>& nums) {
+
+        // Using long to handle INT_MIN safely
+        long max1 = LONG_MIN;
+        long max2 = LONG_MIN;
+        long max3 = LONG_MIN;
+
+        // Traverse all numbers
+        for (int n : nums) {
+
+            // Skip if the number is already counted
+            if (n == max1 || n == max2 || n == max3) continue;
+
+            // Update top 3 numbers
+            if (n > max1) {
+                max3 = max2;
+                max2 = max1;
+                max1 = n;
+            }
+            else if (n > max2) {
+                max3 = max2;
+                max2 = n;
+            }
+            else if (n > max3) {
+                max3 = n;
+            }
+        }
+
+        // If third max does not exist, return the maximum
+        return (max3 == LONG_MIN) ? max1 : max3;
+    }
+};
