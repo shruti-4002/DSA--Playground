@@ -1,0 +1,30 @@
+// Problem: LeetCode 1672 - Richest Customer Wealth
+// Platform: LeetCode
+// Language: C++
+// Approach: Compute row-wise sum in 2D array and track the maximum
+// Time Complexity: O(m*n) — m customers, n banks
+// Space Complexity: O(1) — constant extra space
+
+class Solution {
+public:
+    int maximumWealth(vector<vector<int>>& accounts) {
+        
+        int maxi = 0;  // To store maximum wealth found
+
+        // Iterate over each customer
+        for (int i = 0; i < accounts.size(); i++) {
+            
+            int wealth = 0;  // Calculate wealth of each customer
+            
+            // Sum all bank accounts of the current customer
+            for (int j = 0; j < accounts[i].size(); j++) {
+                wealth += accounts[i][j];
+            }
+
+            // Update maximum wealth
+            maxi = max(maxi, wealth);
+        }
+
+        return maxi;
+    }
+};
