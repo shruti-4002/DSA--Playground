@@ -1,0 +1,42 @@
+// Problem: LeetCode 62 - Unique Paths
+// Platform: LeetCode
+// Language: C++
+// Approach: Recursion + Memoization (Top-Down DP)
+// Idea:
+//   At each cell (i, j), we can move either RIGHT or DOWN.
+//   Total unique paths = paths from right + paths from down.
+//   Memoize results to avoid recomputation.
+//
+// Time Complexity: O(m * n)
+//   Every cell is computed once due to memoization.
+//
+// Space Complexity: O(m * n)
+//   DP table + recursion stack (height = m + n)
+
+class Solution {
+public:
+
+    // Recursive helper with memoization
+    int path(int i, int j, int m, int n, vector<vector<int>>& dp) {
+
+        // Out of bounds
+        if (i >= m || j >= n) return 0;
+
+        // Reached bottom-right cell → one valid path
+        if (i == m - 1 && j == n - 1) return 1;
+
+        // If already computed, return cached value
+        if (dp[i][j] != -1) return dp[i][j];
+
+        // Move right and down
+        int right = path(i, j + 1, m, n, dp);
+        int down  = path(i + 1, j, m, n, dp);
+
+        return dp[i][j] = right + down;
+    }
+
+    int uniquePaths(int m, int n) {
+        vector<vector<int>> dp(m, vector<int>(n, -1));
+        return path(0, 0, m, n, dp);
+    }
+};
