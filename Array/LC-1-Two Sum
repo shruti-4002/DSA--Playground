@@ -1,0 +1,26 @@
+// Problem: LeetCode 1 - Two Sum
+// Platform: LeetCode
+// Language: C++
+// Approach: Brute Force (Check all pairs)
+// Time Complexity: O(n²) — nested loops
+// Space Complexity: O(1) — no extra space used
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+
+        // Check all possible pairs
+        for (int i = 0; i < nums.size(); i++) {
+            for (int j = i + 1; j < nums.size(); j++) {
+
+                // If pair sum matches target, return indices
+                if (nums[i] + nums[j] == target) {
+                    return {i, j};
+                }
+            }
+        }
+
+        // If no pair found (guaranteed solution exists)
+        return {};
+    }
+};
