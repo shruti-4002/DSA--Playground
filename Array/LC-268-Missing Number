@@ -1,0 +1,24 @@
+// Problem: LeetCode 268 - Missing Number
+// Platform: LeetCode
+// Language: C++
+// Approach: XOR cancelation using indices and array values
+// Time Complexity: O(n) — single pass through array
+// Space Complexity: O(1) — constant extra space
+
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+
+        int n = nums.size();
+        int ans = n;  // include the last number in range (0 to n)
+
+        // XOR all indices and array values
+        for (int i = 0; i < n; i++) {
+            ans ^= i;        // XOR with expected number
+            ans ^= nums[i]; // XOR with given array number
+        }
+
+        // Remaining value is the missing number
+        return ans;
+    }
+};
