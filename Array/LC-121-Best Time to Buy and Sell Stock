@@ -1,0 +1,39 @@
+// Problem: LeetCode 121 - Best Time to Buy and Sell Stock
+// Platform: LeetCode
+// Language: C++
+// Approach: Prefix Minimum (Single Pass)
+// Idea:
+//   - Track the minimum price so far (best buy)
+//   - At each day, calculate profit if sold today
+//   - Update maximum profit
+// Time Complexity: O(n) — single pass through array
+// Space Complexity: O(1) — constant extra space
+
+class Solution {
+public:
+    int maxProfit(vector<int>& nums) {
+
+        int profit = 0;              // maximum profit so far
+        int minSoFar = nums[0];      // minimum price seen so far (best buy)
+
+        // Traverse prices from day 1
+        for (int i = 1; i < nums.size(); i++) {
+
+            int current = nums[i];
+
+            // Profit if we sell on current day
+            int profitIfSellToday = current - minSoFar;
+
+            // Update maximum profit
+            if (profitIfSellToday > profit) {
+                profit = profitIfSellToday;
+            }
+
+            // Update minimum price (best buy so far)
+            minSoFar = min(minSoFar, current);
+        }
+
+        // Final maximum profit
+        return profit;
+    }
+};
