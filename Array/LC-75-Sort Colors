@@ -1,0 +1,35 @@
+// Problem: LeetCode 75 - Sort Colors
+// Platform: LeetCode
+// Language: C++
+// Approach: Dutch National Flag Algorithm (Three Pointers)
+// Time Complexity: O(n) — single pass through the array
+// Space Complexity: O(1) — in-place sorting, no extra space
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        
+        int low = 0;                 // Pointer for next position of 0
+        int mid = 0;                 // Current element (inspector)
+        int high = nums.size() - 1;  // Pointer for next position of 2
+
+        // Process elements until all are sorted
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                // Place 0 in the left partition
+                swap(nums[low], nums[mid]);
+                low++;
+                mid++;
+            }
+            else if (nums[mid] == 1) {
+                // 1 is already in correct position
+                mid++;
+            }
+            else { // nums[mid] == 2
+                // Place 2 in the right partition
+                swap(nums[mid], nums[high]);
+                high--;
+            }
+        }
+    }
+};
