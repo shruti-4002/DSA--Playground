@@ -1,0 +1,34 @@
+// Problem: LeetCode 34 - Find First and Last Position of Element in Sorted Array
+// Platform: LeetCode
+// Language: C++
+// Approach: Linear Scan from Both Ends
+// Time Complexity: O(n) — learning to optisime to log n
+// Space Complexity: O(1) — constant extra space
+
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+
+        int start = -1;   // Stores first occurrence of target
+        int end = -1;     // Stores last occurrence of target
+
+        // Find first occurrence (leftmost index)
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == target) {
+                start = i;
+                break;
+            }
+        }
+
+        // Find last occurrence (rightmost index)
+        for (int i = nums.size() - 1; i >= 0; i--) {
+            if (nums[i] == target) {
+                end = i;
+                break;
+            }
+        }
+
+        // Return result as [start, end]
+        return { start, end };
+    }
+};
