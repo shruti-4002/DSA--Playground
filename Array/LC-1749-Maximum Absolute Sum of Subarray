@@ -1,0 +1,31 @@
+// Problem: LeetCode 1749 - Maximum Absolute Sum of Any Subarray
+// Platform: LeetCode
+// Language: C++
+// Approach: Kadane's algorithm to find max subarray sum and min subarray sum in one pass
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+class Solution {
+public:
+    int maxAbsoluteSum(vector<int>& nums) {
+        // Initialize variables for max and min subarray sums
+        int maxsofar = nums[0];
+        int maxcurrentsum = nums[0];
+        int minsofar = nums[0];
+        int mincurrentsum = nums[0];
+
+        // Traverse the array from index 1
+        for(int i = 1; i < nums.size(); i++) {
+            // Kadane for max subarray sum
+            maxcurrentsum = max(nums[i], maxcurrentsum + nums[i]);
+            maxsofar = max(maxsofar, maxcurrentsum);
+
+            // Kadane for min subarray sum
+            mincurrentsum = min(nums[i], mincurrentsum + nums[i]);
+            minsofar = min(minsofar, mincurrentsum);
+        }
+
+        // Return maximum absolute value between max and min subarray sums
+        return max(abs(maxsofar), abs(minsofar));
+    }
+};
