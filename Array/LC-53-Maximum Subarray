@@ -1,0 +1,30 @@
+// Problem: LeetCode 53 - Maximum Subarray
+// Platform: LeetCode
+// Language: C++
+// Approach: Kadane's Algorithm
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+
+        int MaxSoFar = 0;   //subarray sum if moves to new subarray its value will reset to 0
+        int FinalMax = INT_MIN;
+
+        for (int i = 0; i < nums.size(); i++) {
+
+            MaxSoFar += nums[i];
+
+            if (MaxSoFar > FinalMax) {
+                FinalMax = MaxSoFar;  //KEEP ADDING THE SUBARRAY IS GETTING BIGGER
+            }
+
+            if (MaxSoFar < 0) {
+                MaxSoFar = 0;  //RESET THE MAXSOFAR / MOVE TO NEW SUBARRAY
+            }
+        }
+
+        return FinalMax;
+    }
+};
