@@ -1,22 +1,36 @@
+// Problem: LeetCode 560 - Subarray Sum Equals K
+// Platform: LeetCode
+// Language: C++
+// Approach: Prefix Sum + Hash Map
+//            - Har index par prefix sum calculate karo
+//            - Check karo ki (currentSum - k) pehle aa chuka hai ya nahi
+//            - Agar aa chuka hai, toh utni frequency add karo answer me
+// Time Complexity: O(n) — single pass through array
+// Space Complexity: O(n) — hash map for prefix sums
+
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
+
         unordered_map<int, int> mp; // prefixSum -> frequency
-        int sum = 0;
+        mp[0] = 1;                  // base case
+
+        int SumTillCurrent = 0;
         int count = 0;
 
-        mp[0] = 1;
-
         for (int i = 0; i < nums.size(); i++) {
-            sum += nums[i];   // current prefix sum
 
-           
-            if (mp.find(sum - k) != mp.end()) {
-                count += mp[sum - k];
+            // Update prefix sum
+            SumTillCurrent += nums[i];
+
+            // Check required previous sum
+            int extra = SumTillCurrent - k;
+            if (mp.find(extra) != mp.end()) {
+                count += mp[extra];
             }
 
-         
-            mp[sum]++;
+            // Store current prefix sum
+            mp[SumTillCurrent]++;
         }
 
         return count;
