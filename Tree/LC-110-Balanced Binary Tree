@@ -10,33 +10,24 @@
  * };
  */
 class Solution {
+
 public:
 
-    int fun(TreeNode*root){
+    int bfs(TreeNode*root){
         if(root==nullptr)return 0;
-        int leftnodes=fun(root->left);
-        int rightnodes=fun(root->right);
-    
-        if(leftnodes==-1||rightnodes==-1){  //checking previous node that any branch returned -1
+        int leftheight=bfs(root->left);
+        int rightheight=bfs(root->right);
+        if(leftheight==-1||rightheight==-1)return -1;
+        if(abs(leftheight-rightheight)>1){
             return -1;
+        }else{
+             return 1+max(leftheight,rightheight);
         }
-
-if(abs(leftnodes-rightnodes)>1){//checking currentNode recives height frm left and right subtee 
-            return -1;
-        }
-
-
-            return 1+max(leftnodes,rightnodes);
-        
-
     }
 
 
-
-
-
     bool isBalanced(TreeNode* root) {
-       int ans= fun(root);
+        int ans=bfs(root);
         if(ans==-1)return false;
         return true;
     }
