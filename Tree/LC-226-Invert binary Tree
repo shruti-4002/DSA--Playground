@@ -1,0 +1,26 @@
+
+
+// Problem: LeetCode 226 - Invert Binary Tree
+// Language: C++
+// Time Complexity: O(n) - We visit every node exactly once.
+// Space Complexity: O(h) - Where h is the height of the tree (recursion stack).
+
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        // Base Case: If the tree is empty
+        if (root == nullptr) return nullptr;
+
+        // Intuition: Think of a simple [1, 2, 3] tree. 
+        //for any particular node  Swap the left and right pointers of the current node.
+        TreeNode* temp = root->left;  //save the pointer to left 
+        root->left = root->right;
+        root->right = temp;
+
+        // now for root done assume so lets do for all children
+        invertTree(root->left);
+        invertTree(root->right);
+
+        return root;
+    }
+};
