@@ -1,0 +1,35 @@
+class Solution {
+public:
+
+    int explore(vector<vector<int>>& grid,int i ,int j){
+        if(i<0 || j<0 || i>=grid.size() || j>=grid[0].size())return 0;
+        if(grid[i][j]==0)return 0;
+        grid[i][j]=0;
+        
+
+      int u=  explore(grid,i+1,j);
+      int d=  explore(grid,i-1,j);
+      int l=  explore(grid,i,j+1);
+      int r=  explore(grid,i,j-1);
+
+        return 1+ u+d+l+r;
+    }
+
+    int maxAreaOfIsland(vector<vector<int>>& grid) {
+        int rows=grid.size();
+        int col=grid[0].size();
+        int max=0;
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<col;j++){
+                if(grid[i][j]==1){
+                 int newmax= explore(grid,i,j);
+                 if (newmax>max){
+                    max=newmax;
+
+                 }
+                }
+            }
+        }
+        return max;
+    }
+};
