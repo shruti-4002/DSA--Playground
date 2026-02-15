@@ -1,0 +1,29 @@
+//Memoization = Recursion + DP
+//its slow so as a beginner ok but try tabulation 
+//tabulation is fast no extra stack for recursion
+//Memoization = Recursion + DP
+//Tabulation = Loop + DP
+
+class Solution {
+public:
+
+    int calcost(vector<int>cost,int i,vector<int>&dp){
+        if(i==cost.size())return 0;
+        if(i>cost.size())return INT_MAX;
+        if(dp[i]!=-1)return dp[i];
+        int ifonestep=calcost(cost,i+1,dp);
+        int iftwostep=calcost(cost,i+2,dp);
+         return dp[i]=min(ifonestep,iftwostep)+cost[i];
+    }
+
+
+
+    int minCostClimbingStairs(vector<int>& cost) {
+        vector<int>dp(cost.size(),-1);
+        int StartFromIndex0=calcost(cost,0,dp);
+
+        int StartFromIndex1=calcost(cost,1,dp);
+
+        return min(StartFromIndex0,StartFromIndex1);
+    }
+};
