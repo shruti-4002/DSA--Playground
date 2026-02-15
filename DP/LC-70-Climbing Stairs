@@ -1,0 +1,26 @@
+class Solution {
+public:
+
+
+    int ans(int n,vector<int>&dp){
+    
+    if(n==0)return 1;//success
+     if(n<0)return 0;//fail
+     if(dp[n]!=0)return dp[n];
+     int findtwoways=ans(n-2,dp);
+     int onestep=ans(n-1,dp);
+     return dp[n]= findtwoways+onestep;
+
+
+    }
+
+    int climbStairs(int n) {
+        vector<int>dp(n+1,0);
+     int ansi=ans(n,dp);
+        return ansi;
+    
+    }
+
+
+
+};
