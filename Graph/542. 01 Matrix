@@ -1,0 +1,58 @@
+class Solution {
+public:
+    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+        int n=mat.size();
+        int m=mat[0].size();
+    
+        int a[4]={0,0,-1,1};
+       int b[4]={1,-1,0,0};
+      
+        vector<vector<bool>> visited(n, vector<bool>(m, false));
+        vector<vector<int>> ans(n, vector<int>(m, -1));
+        
+        queue<pair<int,int>>q;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(mat[i][j]==0){
+                    q.push({i,j});
+                    ans[i][j]=0;
+                    visited[i][j]=true;
+                }
+            }
+        }
+
+        int levelcount=1;
+        while(!q.empty()){
+            int size=q.size();
+        
+
+            for(int r=0;r<size;r++){
+                auto it=q.front();
+                q.pop();
+                int curr_i=it.first;
+                int curr_j=it.second;
+
+            //for each level we explore all  4 dir 0 in that level
+            //and first time at same time for all 0 in quque they touch 1 
+            //that decides level
+                for(int d=0;d<4;d++){
+                    int new_i=curr_i+a[d];
+                    int new_j=curr_j+b[d];
+  if(new_i<0 || new_j < 0 || new_i >=n || new_j>=m)continue;
+                    if(visited[new_i][new_j]==true)continue;
+                    visited[new_i][new_j]=true;
+                    q.push({new_i,new_j});
+                    ans[new_i][new_j]=levelcount;
+
+
+
+                }
+            }
+          
+            levelcount++;
+        }
+
+            return ans;
+        
+    }
+};
