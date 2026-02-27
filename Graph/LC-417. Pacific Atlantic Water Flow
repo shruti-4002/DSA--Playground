@@ -1,0 +1,58 @@
+class Solution {
+public:
+
+        
+       void  dfs(int i,int j,vector<vector<bool>>&visited,vector<vector<int>>&heights){
+            if(i<0 || j<0 || i>=heights.size() || j>=heights[0].size())return;
+            if(visited[i][j])return;
+            visited[i][j]=true;
+            
+            
+            if(  i<heights.size()-1   && heights[i+1][j]>=heights[i][j]){
+                dfs(i+1,j,visited,heights);
+            }
+
+
+             if( i>0 && heights[i-1][j]>=heights[i][j]){
+                 dfs(i-1,j,visited,heights);
+             }
+
+              if( j<heights[0].size()-1 && heights[i][j+1]>=heights[i][j]){
+                 dfs(i,j+1,visited,heights);
+              }
+
+               if( j>0 && heights[i][j-1]>=heights[i][j]){
+                 dfs(i,j-1,visited,heights);
+               }
+
+
+        }
+
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        int n=heights.size();
+        int m=heights[0].size();
+        vector<vector<bool>>pacific(n,vector<bool>(m,false));
+        vector<vector<bool>>atlantic(n,vector<bool>(m,false));
+        vector<vector<int>>ans;
+
+        for(int i=0;i<m;i++){
+            dfs(0,i,pacific,heights)  ; 
+            dfs(n-1,i,atlantic,heights);
+        }
+
+        for(int j=0;j<n;j++){
+            dfs(j,0,pacific,heights);
+            dfs(j,m-1,atlantic,heights);
+        }
+
+      for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(pacific[i][j] && atlantic[i][j]){
+                ans.push_back({i,j});
+            }
+        }
+      }
+
+        return ans;
+    }
+};

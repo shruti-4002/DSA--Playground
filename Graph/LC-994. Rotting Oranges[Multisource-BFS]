@@ -1,58 +1,64 @@
 class Solution {
 public:
-
     int orangesRotting(vector<vector<int>>& grid) {
         int n=grid.size();
-        int m=grid[0].size();
-        int a[4]={-1,1,0,0};
-        int b[4]={0,0,-1,1};
+        int m= grid[0].size();
         queue<pair<int,int>>q;
-        int total=0;         
+        int a[4]={1,-1,0,0};
+        int b[4]={0,0,-1,1};
+        int total=0;
         int fresh=0;
+        int minute=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
+                if(grid[i][j]==0)continue;
                 if(grid[i][j]==2)q.push({i,j});
+                total++;
                 if(grid[i][j]==1)fresh++;
             }
         }
 
-        int time=0;
         while(!q.empty()){
-            int q_rot=q.size();
-           
-            bool rotthua=false;
-        
-        for(int k=0;k<q_rot;k++){
+               int k= q.size();
+                bool rotthua=false;
+               for(int p=0;p<k;p++){    
+                    auto it=q.front();
+                    q.pop();
+                    int curr_i=it.first;
+                    int curr_j=it.second;
 
-            auto it=q.front();
-                q.pop();
+                    //explore the 4 direction of current rotten from quque
+                    //and add rotten in queue
+                    for(int d=0;d<4;d++){
+                        //form the new cordinates means curr_i and ccurr_j
+                        //to go up down left right that is to all neighbours
 
+                        int new_i=curr_i+a[d];
+                        int new_j=curr_j+b[d];
 
-            int curr_i=it.first;
-            int curr_j=it.second;
+                        //new cordinates that are formed may be up down left right
+                        //first check are they evn valid to be explored if yes 
+                        //go explore and rott the oranges in neighbours dont go in deep 
+                        //just touching neighbours of the one u pop dont go futher
 
-        for(int d=0;d<4;d++){
-            int new_i=curr_i+a[d] ;
-            int new_j=curr_j+b[d];
+    if(new_i <0 || new_j <0 || new_i >=n || new_j >=m || grid[new_i][new_j]!=1)continue;
+                    //if valid and not affected 
+                    //so affect them 
+                    grid[new_i][new_j]=2;
+                    fresh--;
+                    q.push({new_i,new_j});
+                    rotthua=true;
 
-            if(new_i <0 || new_j <0 || new_i >=n || new_j >=m || grid[new_i][new_j]!=1)continue;
-            grid[new_i][new_j]=2;
-            fresh--;
-            q.push({new_i,new_j});
-            rotthua=true;
+                    }
+
+                  
+
+               }   if(rotthua)minute++;
 
         }
-           
-        }
 
-       
-            if(rotthua)time++;
+        return fresh==0? minute: -1;
 
-
-        }
-
-
-        return (fresh==0)?time:-1;
 
 
     }
