@@ -1,23 +1,23 @@
 class Solution {
 public:
     int numberOfSubarrays(vector<int>& nums, int k) {
-        unordered_map<int,int> mp;
+        unordered_map<int,int>mp;
+        int count=0;
+        int curr=0;
+        mp[0]=1;
+        for(int i=0;i<nums.size();i++){
+            nums[i]=nums[i]%2==0?0:1;
+            curr+=nums[i];
 
-        mp[0] = 1;
+            int target=curr-k;
 
-        int sum = 0;
-        int count = 0;
-
-        for (int i = 0; i < nums.size(); i++) {
-            
-            // convert to 0/1
-            sum += (nums[i] % 2);
-
-            if (mp.find(sum - k) != mp.end()) {
-                count += mp[sum - k];
+            if(mp.find(target)!=mp.end()){
+                count+=mp[target];
             }
 
-            mp[sum]++;
+            mp[curr]++;
+
+
         }
 
         return count;
