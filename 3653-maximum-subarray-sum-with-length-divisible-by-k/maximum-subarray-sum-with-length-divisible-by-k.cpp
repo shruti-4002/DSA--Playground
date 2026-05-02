@@ -1,37 +1,25 @@
 class Solution {
 public:
     long long maxSubarraySum(vector<int>& nums, int k) {
-
         unordered_map<int,long long>mp;
+        long long curr=0;
+        long long maxsum=LLONG_MIN;
         mp[0]=0;
-
-        long long currsumtillnow=0;
-        long long ans=LLONG_MIN;
-        long long leastprefixsum=0;
-        
         for(int i=0;i<nums.size();i++){
-            
-            currsumtillnow+=nums[i];
-            int rem=(i+1)%k;
+            curr+=nums[i];
+            int newindex=i+1;
+            int rem=((newindex%k)+k)%k;
+
+            if(mp.find(rem)!=mp.end()){
+                maxsum=max(maxsum,curr-mp[rem]);
+                mp[rem]=min(curr,mp[rem]);
+            }
 
             if(mp.find(rem)==mp.end()){
-                mp[rem]=currsumtillnow;
-                continue;
+                mp[rem]=curr;
             }
-            
-           
-           long long  sum=currsumtillnow-mp[rem];
-
-            if(sum>ans){
-                ans=sum;
-            }
-
-            leastprefixsum= min(mp[rem],currsumtillnow);
-            mp[rem]=leastprefixsum;
 
         }
-
-        return ans;
-
+        return maxsum;
     }
 };
