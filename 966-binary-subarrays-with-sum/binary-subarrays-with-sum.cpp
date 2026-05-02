@@ -1,22 +1,29 @@
 class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
+        int n = nums.size();
+        // Kyunki sum kabhi bhi n se upar nahi jayega, 
+        // hum size n+1 ka array le sakte hain map ki jagah.
+        vector<int> freq(n + 1, 0);
         
-        unordered_map<int,int>mp;
-        int curr=0;
-        int count=0;
-        mp[0]=1;
-        for(int i=0;i<nums.size();i++){
-            curr+=nums[i];
-            int target=curr-goal;
-            if(mp.find(target)!=mp.end()){
-                count+=mp[target];
+        int currSum = 0;
+        int count = 0;
+        
+        // Base case: mp[0] = 1
+        freq[0] = 1; 
+        
+        for (int x : nums) {
+            currSum += x;
+            
+            // Target dhoondo: currSum - goal
+            if (currSum >= goal) {
+                count += freq[currSum - goal];
             }
-
-            mp[curr]++;
+            
+            // Current sum ki frequency badhao
+            freq[currSum]++;
         }
-
+        
         return count;
-
     }
 };
