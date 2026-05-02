@@ -2,19 +2,25 @@ class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
         
-            int count=0;
-        for(int i=0;i<nums.size();i++){
-            int curr=0;
-            for(int j=i;j<nums.size();j++){
-                curr+=nums[j];
+    unordered_map<int,int>mp;
 
-                if(curr==k){
-                    count++;
+                int curr=0;
+                 mp[0]=1;
+                int count=0;
+          for(int i=0;i<nums.size();i++){
+
+                curr+=nums[i];
+                int prefix=curr-k;
+
+                if(mp.find(prefix) !=mp.end()){
+                    count+=mp[prefix];
                 }
-            }
-        }
-        return count;
-    }
+
+                mp[curr]++;
+
+          }
+          return count;
+          }  
 
     
 };
