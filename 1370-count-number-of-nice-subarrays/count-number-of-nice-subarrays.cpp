@@ -6,8 +6,8 @@ public:
         int curr=0;
         mp[0]=1;
         for(int i=0;i<nums.size();i++){
-            nums[i]=nums[i]%2==0?0:1;
-            curr+=nums[i];
+            int odd=nums[i]%2==0?0:1;
+            curr+=odd;
 
             int target=curr-k;
 
