@@ -16,7 +16,7 @@ public:
             long long curr=0;
             long long len=LLONG_MAX;
               mp[0]=-1;
-        for(long long i=0;i<nums.size();i++){
+        for(int i=0;i<nums.size();i++){
                 curr+=nums[i];
                 int rem=((curr%p-need +p)%p);
 
