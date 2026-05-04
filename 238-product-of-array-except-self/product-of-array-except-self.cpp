@@ -1,26 +1,26 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
+        int n = nums.size();
+        // Size define karna zaroori hai
+     
+        vector<int> ans(n,1);
 
-         int n=nums.size();
-        vector<int>pre(n,1);
-        vector<int>suf(n,1);
-       
-        vector<int>ans(n,1);
-      
-
-        for(int i=1;i<nums.size();i++){
-            pre[i]=pre[i-1]*nums[i-1];
-            ans[i]*=pre[i];
-
+        // Prefix: i se pehle wale elements ka product
+        int pre=1;
+        for(int i = 1; i < n; i++) {
+          pre=pre*nums[i-1];
+          ans[i]=pre;
         }
 
-        for(int i=n-2;i>=0;i--){
-            suf[i]=suf[i+1]*nums[i+1];
-            ans[i]*=suf[i];
+      int suf=1;
+        for(int i = n - 2; i >= 0; i--) {
+          suf=suf*nums[i+1];
+          ans[i]*=suf;
         }
 
        
+
         return ans;
     }
 };
