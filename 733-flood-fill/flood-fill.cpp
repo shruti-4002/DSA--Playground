@@ -17,8 +17,6 @@ public:
         
        
 
-        int row = image.size();
-        int col = image[0].size();
         
         int i=sr;
         int j=sc;
