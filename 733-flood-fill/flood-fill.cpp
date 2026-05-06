@@ -2,14 +2,43 @@ class Solution {
 public:
 
     void bfs(int i,int j,int c , int o,vector<vector<int>>& grid){
-        if(i < 0 || i >= grid.size() || j < 0 || j >= grid[0].size())return;
-        if(grid[i][j]!=o || grid[i][j]==c)return;
 
+        int dx[4]={0,0,1,-1};
+        int dy[4]={-1,1,0,0};
+        
+
+        queue<pair<int,int>>q;
+        q.push({i,j});
         grid[i][j]=c;
-        bfs(i + 1, j,c,o,grid);
-        bfs( i - 1, j,c,o,grid);
-        bfs( i, j + 1,c,o,grid);
-        bfs( i, j - 1,c,o,grid);
+
+        
+        while(!q.empty()){
+
+        auto curr=q.front();
+                q.pop();
+
+        for(int k=0;k<4;k++){
+
+            int l=dx[k]+curr.first;
+            int m=dy[k]+curr.second;
+
+         if(l < 0 || l >= grid.size() || m < 0 || m >= grid[0].size())continue;
+        if(grid[l][m]!=o || grid[l][m]==c)continue;
+
+        grid[l][m]=c;
+
+        q.push({l,m});
+
+
+        }
+
+
+
+
+        }
+
+       
+
 
     }
 
