@@ -1,32 +1,63 @@
 class Solution {
 public:
-
-    void bfs(vector<vector<char>>& grid,int i,int j){
-        if(i<0 || i>=grid.size() || j<0 || j>=grid[0].size())return;
-        if(grid[i][j]=='0')return;
-
-        grid[i][j]='0';
-        bfs(grid,i+1,j);
-          bfs(grid,i-1,j);
-            bfs(grid,i,j+1);
-              bfs(grid,i,j-1);
-    }
-
     int numIslands(vector<vector<char>>& grid) {
-        int row=grid.size();
-        int col=grid[0].size();
+        
+        int dx[4]={1,0,-1,0};
+        int dy[4]={0,-1,0,1};
         int count=0;
-        for(int i=0;i<row;i++){
-            for(int j=0;j<col;j++){
-                if(grid[i][j]=='0'){
-                    continue;
-                }else{
+
+        for(int i=0;i<grid.size();i++){
+            for(int j=0;j<grid[0].size();j++){
+                if(grid[i][j]=='1'){
                     count++;
-                    bfs(grid,i,j);
+
+                queue<pair<int,int>>q;
+               
+                q.push({i,j});
+                 grid[i][j]='0';
+
+                while(!q.empty()){
+                    
+                    auto pair=q.front();
+                    q.pop();
+
+                for(int k=0;k<4;k++){
+                    int l=pair.first+dx[k];
+                    int m=pair.second+dy[k];
+
+                    if(l<0 || m<0 || l>=grid.size() || m>=grid[0].size())continue;
+                    if(grid[l][m]=='0')continue;
+                    q.push({l,m});
+                    grid[l][m]='0';
+
+
+
+
+                }
+                    
+
+
+
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
                 }
             }
         }
 
         return count;
+
     }
 };
