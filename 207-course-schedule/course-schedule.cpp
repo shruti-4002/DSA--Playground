@@ -1,57 +1,71 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        
-        // adjacency list
-        vector<vector<int>> adj(numCourses);
 
-        // indegree[i] = how many prerequisites course i needs
-        vector<int> indegree(numCourses, 0);
+        vector<vector<int>>adj(numCourses);//adjaceny list
+        vector<int>ans;
+        vector<int>indegree(numCourses,0);//incoming edges
+        queue<int>q;
 
-        // Build graph
-        for (auto &p : prerequisites) {
 
-            int a = p[0];
-            int b = p[1];
-
-            // b --> a
+        for(auto& p : prerequisites){
+            int a=p[0];
+            int b=p[1];
+            //[]-->[]; children
             adj[b].push_back(a);
-
-            // a has one more incoming edge
             indegree[a]++;
+            
         }
 
-        queue<int> q;
+        //check whose indegree is 0 remebr in topo sort we add 
+        //elements with indegree 0 only to queue;
+        //keep reducing the indgree until it becomes 0;
 
-        // Push all courses having 0 prerequisites
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
+
+        for(int i=0;i<numCourses;i++){
+            if(indegree[i]==0){
                 q.push(i);
             }
         }
 
-        int completed = 0;
+        while(!q.empty()){
 
-        while (!q.empty()) {
-
-            int node = q.front();
+            auto curr = q.front();
+            ans.push_back(curr);
             q.pop();
 
-            completed++;
+            for(auto x: adj[curr]){
 
-            // visit neighbors
-            for (int neighbor : adj[node]) {
+                indegree[x]--;
 
-                indegree[neighbor]--;
-
-                // if no prerequisite left
-                if (indegree[neighbor] == 0) {
-                    q.push(neighbor);
+                if(indegree[x]==0){
+                    q.push(x);
                 }
+
+
             }
+            
+
+
+
+
+
         }
 
-        // if all courses completed -> possible
-        return completed == numCourses;
+        if(ans.size()!=numCourses){
+            return false;
+        }
+
+        return true;
+
+
+
+
+
+
+
+
+
+
     }
 };
