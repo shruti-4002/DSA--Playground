@@ -1,23 +1,13 @@
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
-        int nofoedge=edges.size();
-        unordered_map<int,int>mp;
+        int a=edges[0][0];
+        int b=edges[0][1];
 
-        for(auto p : edges){
-            int first=p[0];
-            int second=p[1];
-            mp[first]++;
-            mp[second]++;
+        if(a==edges[1][0] || a==edges[1][1]) {
+            return a;
+        }else{
+            return b;
         }
-int k;
-        for(auto x :mp){
-            if(x.second==nofoedge){
-              k =x.first;
-               break;
-            }
-        }
-
-        return k;
     }
 };
