@@ -21,13 +21,9 @@ public:
 
         if(rank[parent1]<rank[parent2]){
             p[parent1]=parent2;
-        }
-
-        if(rank[parent1]>rank[parent2]){
+        }else if(rank[parent1]>rank[parent2]){
             p[parent2]=parent1;
-        }
-
-        if(rank[parent1]==rank[parent2]){
+        }else{
 
             p[parent1]=parent2;
             rank[parent2]++;
