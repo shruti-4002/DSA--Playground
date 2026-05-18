@@ -1,44 +1,62 @@
 class Solution {
 public:
 
-        bool dfs(int s,int d,unordered_map<int,vector<int>>&mp,vector<bool>&visited){
 
-        for(auto x :mp[s]){
-            if(visited[x]==true)continue;
-            if(x==d)return true;
-           visited[x]=true ;
-           if( dfs(x,d,mp,visited)){
-            return true;
-           };
+    int find(int child,vector<int>&p){
+        if(p[child]==child){
+            return child;
         }
-            return false;
 
+      p[child]=find(p[child],p);
+            return p[child];
+    }
+
+
+    void uni(int child1,int child2,vector<int>&rank,vector<int>&p){
+
+        int parent1=find(child1,p);
+        int parent2=find(child2,p);
+
+        if(parent1==parent2)return;
+
+        if(rank[parent1]<rank[parent2]){
+            p[parent1]=parent2;
         }
+
+        if(rank[parent1]>rank[parent2]){
+            p[parent2]=parent1;
+        }
+
+        if(rank[parent1]==rank[parent2]){
+
+            p[parent1]=parent2;
+            rank[parent2]++;
+
+        }   
+
+
+    }
 
 
 
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
-        unordered_map<int,vector<int>>mp;
-        if(source==destination)return true;
-        if(edges.size()==0)return true;
-        vector<bool>visited(n,false);
-        for(auto p:edges){
-            int parent=p[0];
-            int child=p[1];
-            mp[parent].push_back(child);
-            mp[child].push_back(parent);
+     
+        
+        vector<int>p(n);
+        vector<int>rank(n,0);
+
+       for(int i=0;i<n;i++){
+        p[i]=i;
+       }
+
+        for(auto x : edges){
+            uni(x[0],x[1],rank,p);
         }
 
-
-
-        
-        visited[source]=true;
-
-       if (dfs(source,destination,mp,visited))return true;
-
+        if(find(source,p)==find(destination,p)){
+            return true;
+        }
 
         return false;
-       
-
     }
 };
