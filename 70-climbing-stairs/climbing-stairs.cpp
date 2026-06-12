@@ -1,25 +1,15 @@
 class Solution {
 public:
 
-    int fun(vector<int>&step,int n){
-
-        if(n==0)return 1;
-        if(n<0)return 0;
-        if(step[n]!=-1){
-            return step[n];
-        }
-         
-        int one=fun(step,n-1);
-        int two=fun(step,n-2);
-        step[n]= one+two;
-        return step[n];
-
-    }
-
     int climbStairs(int n) {
-        vector<int>step(n+1,-1);
-      int ans=  fun(step,n);
-      return ans;
+        vector<int>step(n+2);
+        step[0]=0;
+        step[1]=1;
+        if(n==1)return 1;
+        for(int i=2;i<=n+1;i++){
+            step[i]=step[i-1]+step[i-2];
+        }
+      return step[n+1];
        
     }
 };
