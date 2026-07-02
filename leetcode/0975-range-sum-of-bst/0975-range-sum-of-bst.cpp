@@ -11,25 +11,29 @@
  */
 class Solution {
 public:
-    int sum=0;
+ 
     int rangeSumBST(TreeNode* root, int low, int high) {
         if(root==nullptr){
             return 0;
         }
+
+        int sum=0;
+        int left=0;
+        int right=0;
 
         if(root->val<=high && root->val>=low){
             sum+=root->val;
         }
 
         if(root->val<high){
-            rangeSumBST(root->right,low,high);
+            left=rangeSumBST(root->right,low,high);
         }
 
         if(root->val>low){
-            rangeSumBST(root->left,low,high);
+            right=rangeSumBST(root->left,low,high);
         }
 
-        return sum;
+        return sum+left+right;
 
     }
 };
