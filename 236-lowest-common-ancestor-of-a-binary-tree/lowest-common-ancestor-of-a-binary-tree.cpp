@@ -29,11 +29,9 @@ public:
         return ans1;
       }
 
-      if(ans2!=nullptr){
-        return ans2;
-      }
+     
 
-      return nullptr;
+      return ans2;
 
     }
 };
