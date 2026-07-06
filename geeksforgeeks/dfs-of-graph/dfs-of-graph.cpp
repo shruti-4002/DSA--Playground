@@ -1,2 +1,2 @@
-        int V=adj.size();
+        result.push_back(num);
 
