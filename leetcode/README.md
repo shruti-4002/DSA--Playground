@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
 ## Sorting
 |  |
