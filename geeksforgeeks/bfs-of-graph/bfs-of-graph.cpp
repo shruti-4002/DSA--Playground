@@ -1,2 +1,2 @@
-            q.pop();
+                     v[c]=true;
 
