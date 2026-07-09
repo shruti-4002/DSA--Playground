@@ -1,0 +1,2 @@
+                v[newrow][newcol]=true;
+
