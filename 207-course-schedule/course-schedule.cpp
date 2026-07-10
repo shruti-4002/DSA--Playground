@@ -1,40 +1,48 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+
+        vector<int>in(numCourses,0);
         unordered_map<int,vector<int>>mp;
-        vector<int>indegree(numCourses,0);
         queue<int>q;
 
-        for(auto & p : prerequisites){
-           int child= p[0];
-           int parent=p[1];
+        for(auto& p :prerequisites ){
+            int child=p[0];
+           int parent= p[1];
+           in[child]++;
            mp[parent].push_back(child);
-            indegree[child]++;
         }
 
-        for(int i=0;i<numCourses;i++){
-            if(indegree[i]==0){
-                q.push(i);
+        for(int j=0;j<numCourses;j++){
+            if(in[j]==0){
+                q.push(j);
             }
-
         }
+
 
         int count=0;
 
         while(!q.empty()){
-            int curr=q.front();
-            q.pop();
+           int t= q.front();
+           q.pop();
             count++;
-            for(auto x : mp[curr]){
-                indegree[x]--;
-                if(indegree[x]==0){
-                    q.push(x);
-                }
+           for(int c :mp[t]){
+            in[c]--;
+            if(in[c]==0){
+
+                q.push(c);
             }
+           }
         }
 
-        if(count==numCourses)return true;
 
-        return false;
+if(count==numCourses){
+    return true;
+}else{
+    return false;
+}
+
+
+
     }
 };
