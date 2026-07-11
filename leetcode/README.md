@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
+| [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Design
 |  |
 | ------- |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
+| [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
 | ------- |
@@ -79,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
+| [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Topological Sort
 |  |
 | ------- |
