@@ -1,58 +1,41 @@
 class Solution {
 public:
 
+    void uni(int c1,int c2,vector<int>&parent){
+        int p1=find(c1,parent);
+        int p2=find(c2,parent);
+        if(p1!=p2){
+            parent[p1]=p2;
+        }
+    }
 
-    int find(int child,vector<int>&p){
-        if(p[child]==child){
-            return child;
+    int find(int c,vector<int>&parent){
+        if(parent[c]==c){
+            return c;
         }
 
-      p[child]=find(p[child],p);
-            return p[child];
+         parent[c]=find(parent[c],parent);
+        return parent[c];
     }
-
-
-    void uni(int child1,int child2,vector<int>&rank,vector<int>&p){
-
-        int parent1=find(child1,p);
-        int parent2=find(child2,p);
-
-        if(parent1==parent2)return;
-
-        if(rank[parent1]<rank[parent2]){
-            p[parent1]=parent2;
-        }else if(rank[parent1]>rank[parent2]){
-            p[parent2]=parent1;
-        }else{
-
-            p[parent1]=parent2;
-            rank[parent2]++;
-
-        }   
-
-
-    }
-
-
 
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
-     
-        
-        vector<int>p(n);
-        vector<int>rank(n,0);
-
-       for(int i=0;i<n;i++){
-        p[i]=i;
-       }
-
-        for(auto x : edges){
-            uni(x[0],x[1],rank,p);
+        vector<int>parent(n);
+        for(int i=0;i<n;i++){
+            parent[i]=i;
         }
 
-        if(find(source,p)==find(destination,p)){
+        for(auto x:edges){
+            int c1=x[0];
+            int c2=x[1];
+            uni(c1,c2,parent);
+
+        }
+
+        if(find(source,parent)==find(destination,parent)){
             return true;
+        }else{
+            return false;
         }
 
-        return false;
     }
 };
