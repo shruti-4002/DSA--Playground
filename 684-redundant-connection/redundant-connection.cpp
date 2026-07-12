@@ -1,57 +1,54 @@
 class Solution {
 public:
 
-    bool uni(int child1,int child2,vector<int>&p,vector<int>&rank){
-        
+    int find(int child,vector<int>&parent,vector<int>&rank){
+        if(parent[child]==child){
+            return child;
+        }
+        parent[child]= find(parent[child],parent,rank);
+        return parent[child];
+    }
 
-        int c1=find(child1,p);
-        int c2=find(child2,p);
+    bool uni(int n1,int n2,vector<int>&parent,vector<int>&rank){
+        int p1=find(n1,parent,rank);
+        int p2=find(n2,parent,rank);
 
-        if(c1==c2)return false;
+        if(p1==p2){
+            return false;
+        }
 
-        if(rank[c1]<rank[c2]){
-            p[c1]=c2;
-            return true;
-        }else if(rank[c1]>rank[c2]){
-            p[c2]=c1;
-            return true;
+        if(rank[p1]==rank[p2]){
+            parent[p1]=p2;
+            rank[p2]++;
+
+        }else if(rank[p1]<rank[p2]){
+            parent[p1]=p2;
+            
         }else{
-            p[c1]=c2;
-            rank[c2]++;
-            return true;
+            parent[p2]=p1;
+
         }
+        return true;
     }
-
-    int find(int child,vector<int>&p){
-        if(p[child]==child)return child;
-
-         p[child]=find(p[child],p);
-        return p[child];
-    }
-
-      bool ans;
-     
-
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        int n=edges.size();
-        vector<int>p(n+1);
-
-        vector<int>rank(n+1,0);
-
-        for(int i=0;i<=n;i++){
-            p[i]=i;
+        vector<int>parent(edges.size()+1);
+        vector<int>rank(edges.size()+1,0);
+        
+        for(int i=0;i<edges.size();i++){
+            parent[i]=i;
         }
 
-        for(auto x:edges){
-         ans = uni(x[0],x[1],p,rank);
-         if(ans==false){
-           return {x[0],x[1]};
-         }
-           
+        vector<int>ansvec;
+        for(auto &e:edges){
+            int n1=e[0];
+            int n2=e[1];
+           bool ans= uni(n1,n2,parent,rank);
+           if(ans==false){
+            ansvec.push_back(n1);
+            ansvec.push_back(n2);
+            return ansvec;
+           }
         }
-
-        return {};
-
-      
+        return ansvec;
     }
 };
