@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0001-two-sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
@@ -91,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0001-two-sum) |
 <!---LeetCode Topics End-->
