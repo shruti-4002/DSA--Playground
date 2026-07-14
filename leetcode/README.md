@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0001-two-sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
+| [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
 ## Sorting
 |  |
@@ -107,4 +108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 <!---LeetCode Topics End-->
