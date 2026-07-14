@@ -1,27 +1,20 @@
 class Solution {
 public:
 
-    int fun(int n,vector<int>arr,vector<int>&memo){
-        if(n>=arr.size()){
-            return 0;
-        }
-        if(memo[n]!=-1){
-            return memo[n];
-        }
-        int onestep=fun(n+1,arr,memo);
-        int twostep=fun(n+2,arr,memo);
-
-        memo[n]=min(onestep,twostep)+arr[n];
-        return memo[n];
-    }
 
 
 
     int minCostClimbingStairs(vector<int>& cost) {
-        vector<int>memo(cost.size(),-1);
-        int onestep=fun(0,cost,memo);
-       int twostep= fun(1,cost,memo);
-       return min(onestep,twostep);
+        vector<int>dp(cost.size()+2);
+        dp[cost.size()]=0;
+         dp[cost.size()+1]=0;
+         int mincost=1000;
+        for(int i=cost.size()-1;i>=0;i--){
+            dp[i]=min(dp[i+1],dp[i+2])+cost[i];
+           
+        }
+        return min(dp[0],dp[1]);
+
     }
 
 };
