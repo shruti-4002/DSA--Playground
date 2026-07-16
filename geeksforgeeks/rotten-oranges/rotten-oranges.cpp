@@ -1,2 +1,2 @@
-                count++; 
+        q.push({newi,newj});
 
