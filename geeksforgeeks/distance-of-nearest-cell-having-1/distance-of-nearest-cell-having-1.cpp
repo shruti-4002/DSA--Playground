@@ -1,2 +1,2 @@
-                v[newrow][newcol]=true;
+                     v[i][j]=true;
 
