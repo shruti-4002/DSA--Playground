@@ -1,49 +1,49 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        
-        vector<vector<pair<int, int>>> adj(n);
-        for(const auto& f : flights) {
-            int u=f[0];
-            int v=f[1];
-            int w=f[2];
-            adj[u].push_back({v,w});
-        }
-
-        vector<int> dist(n, INT_MAX);
-        dist[src] = 0;
-        
-
-      queue<pair<int, pair<int, int>>>q;
-        q.push({src,{0,-1}});
-
-
-      
-
        
-        while(!q.empty()) {
+        vector<vector<pair<int,int>>>adj(n);
+        queue<pair<int,pair<int,int>>>pq;
         
-          
-                auto curr = q.front();
-                int mainNode=curr.first;
-                int mainNodeDis=curr.second.first;
-                int mainNodeStops=curr.second.second;
-                q.pop();
-
-                for(const auto& edge : adj[mainNode]) {
-                    int NodeB = edge.first;
-                    int DisAB = edge.second;
-
-                if(DisAB+mainNodeDis<dist[NodeB] && mainNodeStops+1<=k){
-                    dist[NodeB]=DisAB+mainNodeDis;
-                    q.push({NodeB,{dist[NodeB],mainNodeStops+1}});
-                } 
+        for(auto e:flights){
+            int u=e[0];
+            int v=e[1];
+            int w=e[2];
+            
+            adj[u].push_back({v,w});
+              
+        }
+        
+        
+        vector<int>dis(n,INT_MAX);
+        
+        dis[src]=0;
+        pq.push({-1,{dis[src],src}});
+        
+        while(!pq.empty()){
+            
+                int DisNodeA=pq.front().second.first;
+                int NodeA=pq.front().second.second;
+                int numsteps=pq.front().first;
                 
+                pq.pop();
+                
+              
+                
+                for(auto & nodes : adj[NodeA]){
+                    int NodeB=nodes.first;
+                    int EdgeDisNodeB=nodes.second;
+                    if(dis[NodeB]>DisNodeA+EdgeDisNodeB && numsteps+1<=k){
+                        dis[NodeB]=DisNodeA+EdgeDisNodeB;
+                        pq.push({numsteps+1,{dis[NodeB],NodeB}});
+                    }
                 }
-            }
-           
+            
+        }
         
-
-        return dist[dst] == INT_MAX ? -1 : dist[dst];
+        if (dis[dst]==INT_MAX){
+            return -1;
+        };
+        return dis[dst];
     }
 };
