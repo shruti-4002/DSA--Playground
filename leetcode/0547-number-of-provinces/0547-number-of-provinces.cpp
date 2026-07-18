@@ -13,6 +13,7 @@ public:
         rank[p2]++;
     }
     }
+    
 
     int find(int child,vector<int>&p){
             if(p[child]==child){
