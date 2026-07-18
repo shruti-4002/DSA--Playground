@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
@@ -108,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
+| [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
