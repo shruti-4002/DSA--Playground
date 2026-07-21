@@ -1,0 +1,2 @@
+}; // Added semicolon here
+
