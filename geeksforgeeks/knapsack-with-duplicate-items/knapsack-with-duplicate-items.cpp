@@ -1,2 +1,2 @@
-                dp[i][w] = max(notpick, pick);
+        int notpick=help(val,wt,capacity,index+1,dp);
 
