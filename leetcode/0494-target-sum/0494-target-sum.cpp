@@ -37,7 +37,7 @@ int help(int index,int sum,vector<int>&arr,vector<vector<int>>&dp){
             sum+=x;
         }
 
-        if(sum<target || sum<abs(target)){
+        if( sum<abs(target)){
             return 0;
         }
         if((sum+target)%2!=0)return 0;
