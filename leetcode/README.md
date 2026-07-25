@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
 ## Depth-First Search
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
@@ -62,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
 ## Binary Search Tree
