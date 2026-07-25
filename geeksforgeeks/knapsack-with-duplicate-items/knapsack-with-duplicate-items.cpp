@@ -1,2 +1,2 @@
-        int notpick=help(val,wt,capacity,index+1,dp);
+      return memo[index][curcap]=max(pick,notpick);
 
