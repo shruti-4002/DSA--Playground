@@ -1,2 +1,2 @@
-        int ans=help(0,W,wt,val,memo);
+        vector<vector<int>>dp(n,vector<int>(W+1,-1));
 
