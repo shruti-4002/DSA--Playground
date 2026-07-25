@@ -1,2 +1,2 @@
-          pick=help(index+1,sum-arr[index],arr,dp);
+         for(int j=target;j>=x;j--){
 
