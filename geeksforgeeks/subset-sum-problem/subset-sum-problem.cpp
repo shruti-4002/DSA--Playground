@@ -1,2 +1,2 @@
-        bool ans=help(0,sum,arr,dp);
+        dp[0]=1;
 
