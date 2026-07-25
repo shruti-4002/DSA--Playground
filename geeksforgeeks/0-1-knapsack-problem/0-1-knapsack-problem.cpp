@@ -1,2 +1,2 @@
-        vector<vector<int>>dp(n,vector<int>(W+1,-1));
+                dp[i][j]=max(dp[i-1][j],val[i-1]+dp[i-1][j-wt[i-1]]);
 
