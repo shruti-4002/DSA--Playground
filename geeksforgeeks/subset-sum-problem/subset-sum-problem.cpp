@@ -1,2 +1,2 @@
-  bool fun(vector<int>&arr,int sum,int index,vector<vector<int>>&dp){
+        bool ans=help(0,sum,arr,dp);
 
