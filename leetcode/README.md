@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0494-target-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0064-minimum-path-sum) |
 | [0198-house-robber](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0494-target-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
