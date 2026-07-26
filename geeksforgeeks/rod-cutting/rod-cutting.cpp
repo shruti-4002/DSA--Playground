@@ -1,2 +1,2 @@
-      return memo[index][remainLen]=max(pick,notpick);
+      int notpick=help(index+1,remainlen,price,dp);
 
