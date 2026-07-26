@@ -1,2 +1,2 @@
-      return memo[index][curcap]=max(pick,notpick);
+       return help(0,capacity,val,wt,dp);
 
