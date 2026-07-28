@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0494-target-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0064-minimum-path-sum) |
 | [0198-house-robber](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0494-target-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
