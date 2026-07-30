@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
 ## Tree
 |  |
 | ------- |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
 ## Backtracking
 |  |
