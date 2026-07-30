@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int help(int index1,int index2,string &str1,string &str2,vector<vector<int>>&dp){
+    int help(int index1,int index2,const string &str1,const string &str2,vector<vector<int>>&dp){
         if(index1<0 || index2<0){
             return 0;
         }
