@@ -1,2 +1,2 @@
-        vector<int>dp(capacity+1,0);
+                dp[j]=max(dp[j],val[i]+dp[j-wt[i]]);
 
