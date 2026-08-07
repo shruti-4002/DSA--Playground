@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0518-coin-change-ii) |
+| [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
 ## Union-Find
 |  |
@@ -144,10 +146,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0001-two-sum) |
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
@@ -197,8 +201,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 ## Quickselect
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+## Greedy
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 <!---LeetCode Topics End-->
