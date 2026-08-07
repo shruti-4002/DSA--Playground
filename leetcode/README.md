@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0518-coin-change-ii) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
 ## Union-Find
 |  |
@@ -141,9 +143,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0001-two-sum) |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
@@ -181,4 +185,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
