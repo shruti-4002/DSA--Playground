@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0130-surrounded-regions) |
+| [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
 | [0198-house-robber](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0213-house-robber-ii) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0455-assign-cookies) |
 ## Data Stream
@@ -253,4 +255,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
 <!---LeetCode Topics End-->
