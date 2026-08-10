@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0001-two-sum) |
+| [0202-happy-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0202-happy-number) |
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
+| [0202-happy-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0202-happy-number) |
 | [0295-find-median-from-data-stream](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0455-assign-cookies) |
 ## Data Stream
@@ -259,4 +261,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
+| [0202-happy-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0202-happy-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0202-happy-number) |
 <!---LeetCode Topics End-->
