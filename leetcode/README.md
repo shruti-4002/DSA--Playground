@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
+| [0739-daily-temperatures](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
@@ -253,10 +254,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0739-daily-temperatures) |
 ## Math
 |  |
 | ------- |
