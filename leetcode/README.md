@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 ## Binary Tree
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0084-largest-rectangle-in-histogram) |
+| [0155-min-stack](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0739-daily-temperatures) |
 ## Monotonic Stack
