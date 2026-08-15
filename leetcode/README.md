@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
+| [2058-concatenation-of-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2058-concatenation-of-array) |
 ## Sorting
 |  |
 | ------- |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0054-spiral-matrix) |
+| [2058-concatenation-of-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2058-concatenation-of-array) |
 ## Prefix Sum
 |  |
 | ------- |
