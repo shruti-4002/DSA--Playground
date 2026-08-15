@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0162-find-peak-element) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0441-arranging-coins](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0441-arranging-coins) |
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
 | [0202-happy-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0202-happy-number) |
+| [0441-arranging-coins](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0441-arranging-coins) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
