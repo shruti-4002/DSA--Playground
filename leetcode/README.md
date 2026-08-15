@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
 | [2058-concatenation-of-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2058-concatenation-of-array) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2616-maximal-score-after-applying-k-operations) |
 ## Sorting
 |  |
 | ------- |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2616-maximal-score-after-applying-k-operations) |
 ## Shortest Path
 |  |
 | ------- |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2616-maximal-score-after-applying-k-operations) |
 ## Two Pointers
 |  |
 | ------- |
