@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
+| [1603-running-sum-of-1d-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1603-running-sum-of-1d-array) |
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
@@ -304,4 +305,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0054-spiral-matrix) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
