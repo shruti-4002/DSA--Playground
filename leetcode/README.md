@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0020-valid-parentheses) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
 ## Tree
 |  |
 | ------- |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
