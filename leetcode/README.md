@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0404-sum-of-left-leaves) |
 | [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0322-coin-change) |
+| [0404-sum-of-left-leaves](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0404-sum-of-left-leaves) |
 | [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
@@ -70,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
