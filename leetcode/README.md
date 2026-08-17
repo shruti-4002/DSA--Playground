@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1995-finding-pairs-with-a-certain-sum) |
 ## Binary Tree
 |  |
 | ------- |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
 | [1791-richest-customer-wealth](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1791-richest-customer-wealth) |
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1995-finding-pairs-with-a-certain-sum) |
 | [2058-concatenation-of-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2058-concatenation-of-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2616-maximal-score-after-applying-k-operations) |
 ## Sorting
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1995-finding-pairs-with-a-certain-sum) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
