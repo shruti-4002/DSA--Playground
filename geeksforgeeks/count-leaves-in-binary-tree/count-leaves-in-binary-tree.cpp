@@ -1,2 +1,2 @@
-            return 1;
+        return countLeaves(root->left)+ countLeaves(root->right);
 
