@@ -1,2 +1,2 @@
-        if(mat[i][j]==0 || mat[m][n]==0)return -1;//destination deewar ho hi nahi skatoi
+        if(mat[src[0]][src[1]]=0 || mat[dest[0]][dest[1]]==0){
 
