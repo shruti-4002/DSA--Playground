@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Design
 |  |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 ## Array
 |  |
 | ------- |
@@ -141,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1603-running-sum-of-1d-array) |
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 | [1791-richest-customer-wealth](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1791-richest-customer-wealth) |
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1995-finding-pairs-with-a-certain-sum) |
@@ -165,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0684-redundant-connection) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2121-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
@@ -176,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0200-number-of-islands) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 | [1791-richest-customer-wealth](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1791-richest-customer-wealth) |
 ## Graph Theory
 |  |
@@ -214,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2616-maximal-score-after-applying-k-operations) |
 ## Shortest Path
 |  |
@@ -350,4 +357,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0387-first-unique-character-in-a-string) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
