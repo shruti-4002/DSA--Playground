@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0189-rotate-array) |
 | [0202-happy-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0202-happy-number) |
 | [0441-arranging-coins](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0441-arranging-coins) |
+| [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0054-spiral-matrix) |
 | [2058-concatenation-of-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2058-concatenation-of-array) |
+| [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 ## Prefix Sum
 |  |
 | ------- |
