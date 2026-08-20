@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
+| [1025-minimum-cost-for-tickets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1025-minimum-cost-for-tickets) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [1025-minimum-cost-for-tickets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1025-minimum-cost-for-tickets) |
 | [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
 ## Backtracking
