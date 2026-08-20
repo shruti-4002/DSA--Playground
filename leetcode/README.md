@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1961-maximum-ice-cream-bars](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1961-maximum-ice-cream-bars) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1995-finding-pairs-with-a-certain-sum) |
 | [2058-concatenation-of-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2058-concatenation-of-array) |
+| [2262-solving-questions-with-brainpower](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2262-solving-questions-with-brainpower) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2616-maximal-score-after-applying-k-operations) |
 ## Sorting
 |  |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1025-minimum-cost-for-tickets) |
 | [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
+| [2262-solving-questions-with-brainpower](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/2262-solving-questions-with-brainpower) |
 ## Backtracking
 |  |
 | ------- |
