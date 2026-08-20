@@ -1,22 +1,20 @@
 class Solution {
 public:
-    long long calPoints(vector<vector<int>>&arr,int index,vector<long long>&dp){
-        if(index>=arr.size()){
-            return 0;
+  
+    long long mostPoints(vector<vector<int>>& q) {
+        vector<long long>dp(q.size(),-1);
+        
+        int n=q.size();
+
+        for(int i=n-1;i>=0;i--){
+            long long currPoint=q[i][0];
+         
+         
+            long long futureOpen=   q[i][1]+i+1<n? dp[q[i][1]+i+1] :0;
+           int nextindex=i+1<n?i+1:0;
+            dp[i]=max(dp[nextindex],currPoint+futureOpen);
         }
 
-        if(dp[index]!=-1){
-            return dp[index];
-        }
-
-        long long take=arr[index][0]+calPoints(arr,index+arr[index][1]+1,dp);
-        long long notTake=calPoints(arr,index+1,dp);
-
-        return dp[index]= max(take,notTake);
-
-    }
-    long long mostPoints(vector<vector<int>>& questions) {
-        vector<long long>dp(questions.size(),-1);
-        return calPoints(questions,0,dp);
+        return dp[0];
     }
 };
