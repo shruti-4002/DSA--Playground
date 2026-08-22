@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
 | [3379-score-of-a-string](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/3379-score-of-a-string) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/3872-find-most-frequent-vowel-and-consonant) |
 ## Tree
 |  |
 | ------- |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0653-two-sum-iv-input-is-a-bst) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1995-finding-pairs-with-a-certain-sum) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/3872-find-most-frequent-vowel-and-consonant) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/3872-find-most-frequent-vowel-and-consonant) |
 ## Quickselect
 |  |
 | ------- |
