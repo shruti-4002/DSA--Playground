@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
+| [3379-score-of-a-string](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/3379-score-of-a-string) |
 ## Tree
 |  |
 | ------- |
