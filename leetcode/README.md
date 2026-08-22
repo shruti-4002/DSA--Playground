@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0020-valid-parentheses) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0297-serialize-and-deserialize-binary-tree) |
 | [0387-first-unique-character-in-a-string](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0387-first-unique-character-in-a-string) |
+| [1205-defanging-an-ip-address](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1205-defanging-an-ip-address) |
 | [1250-longest-common-subsequence](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1250-longest-common-subsequence) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1960-check-if-the-sentence-is-pangram) |
