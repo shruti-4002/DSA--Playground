@@ -1,34 +1,38 @@
 class Solution {
 public:
     int search(vector<int>& arr, int target) {
-        int start=0;
-        int end=arr.size()-1;
-        while(start<=end){
-            int mid=start+(end-start)/2;
-
-            if(arr[mid]==target){
+           int low=0;
+        int high=arr.size()-1;
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if (arr[mid]==target){
                 return mid;
             }
-            //if array is sorted
-            if(arr[start]<=arr[mid]){
-                if(arr[start]<=target && arr[mid]>target){
-                    end=mid-1;
+
+            if(arr[low]<=arr[mid]){ //sorted
+                if(arr[low]<=target && arr[mid]>target){
+                    high=mid-1;
                 }else{
-                    start=mid+1;
+                    low=mid+1;
                 }
+            }else{   //unsorted
+
+            if(target<=arr[high] && target>arr[mid]){
+                low=mid+1;
             }else{
 
-            //if array unsorted
-            if(target<=arr[end] && target>arr[mid]){
-                start=mid+1;
-            }else{
-                end=mid-1;
+                high=mid-1;
             }
+
+
 
             }
 
+
+            
         }
 
         return -1;
+
     }
 };
