@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0450-delete-node-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0783-search-in-a-binary-search-tree) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0882-peak-index-in-a-mountain-array) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0747-min-cost-climbing-stairs) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0882-peak-index-in-a-mountain-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1025-minimum-cost-for-tickets) |
 | [1127-last-stone-weight](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1171-shortest-path-in-binary-matrix) |
@@ -375,4 +377,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
+## Ternary Search
+|  |
+| ------- |
+| [0882-peak-index-in-a-mountain-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0882-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
