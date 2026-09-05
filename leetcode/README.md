@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0907-koko-eating-bananas) |
 | [0975-range-sum-of-bst](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/0975-range-sum-of-bst) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
 ## Array
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1222-remove-covered-intervals](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1222-remove-covered-intervals) |
 | [1580-shuffle-the-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1580-shuffle-the-array) |
 | [1603-running-sum-of-1d-array](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1603-running-sum-of-1d-array) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/shruti-4002/DSA--Playground/tree/master/LeetCode/1753-path-with-minimum-effort) |
